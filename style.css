@@ -11,6 +11,7 @@ section {
   color: black;
   height: 100vh;
   padding: 30px 100px 0 100px;
+  transition: 0.3s all ease;
 }
 section nav {
   display: flex;
@@ -111,9 +112,10 @@ section form .button_div button {
 section.dark_mode {
   background-color: black;
   color: white;
+  transition: 0.3s all ease;
 }
 section.dark_mode nav .switch .slider:before {
-  background-color: white;
+  background-color: black;
 }
 section.dark_mode form .text_input {
   border: 2px solid white;
