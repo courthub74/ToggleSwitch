@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: none;
+}
+
+section {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  padding: 30px 100px 0 100px;
+}
+section nav {
+  display: flex;
+  justify-content: space-between;
+}
+section nav .title_ {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+}
+section form {
+  height: 50vh;
+  margin: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section form .input_div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+}
+section form .input_div label {
+  font-size: 1.3rem;
+}
+section form .input_div .text_input {
+  border: 2px solid black;
+  padding: 10px 30px;
+}
+section form .button_div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px 0 0 0;
+}
+section form .button_div button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+section.dark_mode {
+  background-color: black;
+  color: white;
+}
+section.dark_mode form .text_input {
+  border: 2px solid white;
+  background-color: black;
+}
+section.dark_mode form button {
+  color: black;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */

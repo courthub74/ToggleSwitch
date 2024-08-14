@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: none;
+}
+
+section {
+    // Background
+    background-color: white;
+    // Text Color
+    color: black;
+    height: 100vh;
+    padding: 30px 100px 0 100px;
+    // The NavBar Top
+    nav {
+        display: flex;
+        justify-content: space-between;
+        // padding: 30px 100px 0 100px;
+        .title_ {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2rem;
+        }
+    }
+    // The Page Form
+    form {
+        // background-color: darkblue;
+        height: 50vh;
+        margin: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        // The Input Divs
+        .input_div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 30%;
+            label {
+                font-size: 1.3rem;
+            }
+            // Inputs
+            .text_input {
+                border: 2px solid black;
+                padding: 10px 30px;
+            }
+        }
+        // Submit Button
+        .button_div {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin: 10px 0 0 0;
+            button {
+                background-color: black;
+                color: white;
+                padding: 15px 30px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+section.dark_mode {
+    // Background
+    background-color: black;
+    // Text Color
+    color: white;
+    // Change the text_inputs
+    form {
+        .text_input {
+            border: 2px solid white;
+            background-color: black;
+        }
+        button {
+            color: black;
+            background-color: white;
+        }
+    }
+}
