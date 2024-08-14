@@ -16,9 +16,21 @@ section nav {
   display: flex;
   justify-content: space-between;
 }
+section nav #day {
+  width: 2em;
+  height: 2em;
+}
+section nav #night {
+  width: 2em;
+  height: 2em;
+}
 section nav .title_ {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
+}
+section nav .the_switch {
+  display: flex;
+  align-items: center;
 }
 section nav .switch {
   position: relative;
@@ -99,6 +111,9 @@ section form .button_div button {
 section.dark_mode {
   background-color: black;
   color: white;
+}
+section.dark_mode nav .switch .slider:before {
+  background-color: white;
 }
 section.dark_mode form .text_input {
   border: 2px solid white;
